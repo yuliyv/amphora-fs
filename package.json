@@ -6,7 +6,7 @@
   "scripts": {
     "generate-readme": "node docs/generate-readme.js && git add README.md",
     "lint": "eslint lib test index.js index.test.js",
-    "test-local": "istanbul cover _mocha",
+    "test": "npm run lint && npm run mocha",
     "mocha": "istanbul cover _mocha"
   },
   "author": "",

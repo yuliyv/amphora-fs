@@ -1,7 +1,3 @@
-# Javascript Node CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-javascript/ for more details
-#
 version: 2
 jobs:
   build:
@@ -28,3 +24,5 @@ jobs:
 
       # run tests!
       - run: npm test
+      # send to coveralls
+      - run: cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js

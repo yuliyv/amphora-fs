@@ -8,4 +8,5 @@ module.exports.getComponents = require('./lib/getComponents');
 module.exports.getLayouts = require('./lib/getLayouts');
 module.exports.getLayoutPath = require('./lib/getLayoutPath');
 module.exports.getComponentName = require('./lib/getComponentName');
+module.exports.getLayoutName = require('./lib/getComponentName');
 module.exports.readFilePromise = require('./lib/readFilePromise');

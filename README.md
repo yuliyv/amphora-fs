@@ -17,9 +17,16 @@ npm install --save amphora-fs
 # Utils:
 
 * **fileExists** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/fileExists)
-* **getComponents** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponents)
+* **getComponentModule** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentModule)
 * **getComponentName** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentName)
+* **getComponentPackage** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentPackage)
 * **getComponentPath** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentPath)
+* **getComponents** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponents)
+* **getFiles** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getFiles)
+* **getFolders** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getFolders)
 * **getIndices** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getIndices)
 * **getSchemaPath** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getSchemaPath)
+* **getYaml** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getYaml)
+* **isDirectory** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/isDirectory)
 * **readFilePromise** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/readFilePromise)
+* **tryRequire** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/tryRequire)

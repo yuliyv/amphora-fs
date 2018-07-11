@@ -16,6 +16,7 @@ npm install --save amphora-fs
 
 # Utils:
 
+* **fileExists** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/fileExists)
 * **getComponents** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponents)
 * **getComponentName** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentName)
 * **getComponentPath** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentPath)
@@ -24,3 +25,4 @@ npm install --save amphora-fs
 * **getLayoutPath** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getLayoutPath)
 * **getIndices** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getIndices)
 * **getSchemaPath** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getSchemaPath)
+* **readFilePromise** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/readFilePromise)

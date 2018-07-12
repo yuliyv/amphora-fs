@@ -14,23 +14,23 @@ npm install --save amphora-fs
 
 ---
 
-# Utils:
+# Methods
 
-* **fileExists** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/fileExists)
-* **getComponentModule** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentModule)
-* **getComponentName** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentName)
-* **getComponentPackage** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentPackage)
-* **getComponentPath** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentPath)
-* **getComponents** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponents)
-* **getFiles** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getFiles)
-* **getFolders** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getFolders)
-* **getIndices** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getIndices)
-* **getLayoutModule** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getLayoutModule)
-* **getLayoutName** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getLayoutName)
-* **getLayoutPath** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getLayoutPath)
-* **getLayouts** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getLayouts)
-* **getSchemaPath** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getSchemaPath)
-* **getYaml** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getYaml)
-* **isDirectory** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/isDirectory)
-* **readFilePromise** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/readFilePromise)
-* **tryRequire** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/tryRequire)
+* **fileExists** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/fileExists) - test if a file exists
+* **getComponentModule** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentModule) - get a component's `model.js`
+* **getComponentName** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentName) - get a component's name, validating that it exists in your Clay instance
+* **getComponentPackage** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentPackage) - get a npm component's `package.json`
+* **getComponentPath** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponentPath) - get a component's filepath
+* **getComponents** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getComponents) - get a list of all components in your Clay instance
+* **getFiles** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getFiles) - get files (that aren't test or documentation) in a directory
+* **getFolders** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getFolders) - get folders in a directory
+* **getIndices** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getIndices) - get all component references in an object
+* **getLayoutModule** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getLayoutModule) - get a layout's `model.js`
+* **getLayoutName** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getLayoutName) - get a layout's name, validating that it exists in your Clay instance
+* **getLayoutPath** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getLayoutPath) - get a layout's filepath
+* **getLayouts** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getLayouts) - get a list of all layouts in your Clay instance
+* **getSchemaPath** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getSchemaPath) - get the path for a layout's / component's schema
+* **getYaml** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/getYaml) - get and parse yaml files, including env variables (for `config.yml` and `local.yml`)
+* **isDirectory** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/isDirectory) - determine if a path is a directory
+* **readFilePromise** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/readFilePromise) - `fs.readFile` that returns a promise
+* **tryRequire** [(code|tests|docs)](https://github.com/clay/amphora-fs/tree/master/lib/tryRequire) - attempt to `require()` a file, with graceful fallback
